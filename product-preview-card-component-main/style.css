@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("fonts/static/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: "fraunces";
+    src: url("fonts/Fraunces_9pt_Soft-Bold.ttf");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #F3EAE3;
+
+
+}
+.container{
+    width: 600px;
+    height: 400px;
+    margin:10px auto;
+    margin-top: 10%;
+    margin-bottom: 13%;
+
+}
+
+.card{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.card > img{
+   display: flex;
+
+}
+
+.title{
+    position: relative;
+    left:57%;
+    bottom:105%;
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    color:#767887;
+    letter-spacing: 4px;
+
+}
+
+.paragraph_title{
+    position: relative;
+    left:57%;
+    bottom:100%;
+    max-width: 200px;
+    font-family: "fraunces";
+    font-size: 30px;
+}
+
+.paragraph{
+    position: relative;
+    left:57%;
+    bottom:95%;
+    max-width: 230px ;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color:#767887;
+    font-family: "montserrat";
+}
+
+.newprice{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    left:57%;
+    bottom:90%;
+    font-family: "fraunces";
+    font-size: 30px;
+    color:#3B7E65;
+}
+
+.oldprice{
+    position: relative;
+    display: flex;
+    left:82%;
+    bottom: 97%;
+    font-family: "montserrat";
+    font-size: 14px;
+    color:#767887;
+    text-decoration: line-through;
+}
+
+.button{
+    position: relative;
+    left: 57%;
+    bottom: 85%;
+    width: 230px;
+    height: 45px;
+    padding: 12px;
+    padding-left: 55px;
+    background-color: #3B7E65;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    color:#FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button img{
+    margin-right:10px;
+}
+
+.button:hover{
+    background-color:#1A4031;
+}
+
+.attribution{
+    position: fixed;
+    font-family: "montserrat";
+    font-size: 10px;
+}
