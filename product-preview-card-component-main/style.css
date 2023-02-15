@@ -43,10 +43,10 @@ body{
 
 .title{
     position: relative;
-    left:57%;
+    left:56%;
     bottom:105%;
     font-family: "montserrat";
-    font-weight: 500;
+    font-weight:400;
     font-size: 13px;
     color:#767887;
     letter-spacing: 4px;
@@ -55,16 +55,17 @@ body{
 
 .paragraph_title{
     position: relative;
-    left:57%;
+    left:56%;
     bottom:100%;
     max-width: 200px;
     font-family: "fraunces";
     font-size: 30px;
+    color:#1C2226;
 }
 
 .paragraph{
     position: relative;
-    left:57%;
+    left:56%;
     bottom:95%;
     max-width: 230px ;
     font-size: 14px;
@@ -78,8 +79,9 @@ body{
     position: relative;
     display:flex;
     flex-wrap: wrap;
+    left:56%;
     width:120px;
-    bottom:90%;
+    bottom:85%;
     font-family: "fraunces";
     font-size: 30px;
     color:#3B7E65;
@@ -87,19 +89,19 @@ body{
 
 .oldprice{
     position: relative;
-    display: flex;
-    left:70%;
+    left:80%;
     width:100px;
-    top:-30px;
+    bottom:366px;
     font-family: "montserrat";
     font-size: 14px;
     color:#767887;
     text-decoration: line-through;
+    font-weight: 100;
 }
 
 .button{
     position: relative;
-
+    left:56%;
     bottom: 85%;
     width: 230px;
     height: 45px;
